@@ -1,0 +1,5 @@
+# Capture intermediates (PNG/webm/palettes live in a temp --work dir, never here,
+# but guard against accidental local runs)
+work/
+*.webm
+node_modules/
